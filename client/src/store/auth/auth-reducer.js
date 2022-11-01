@@ -14,7 +14,6 @@ const authReducer = (currentState, action) => {
     ...currentState,
   };
 
-  // State Mutations
   switch (action.type) {
     case AUTH_LOADING: {
       newState.loading = true;
